@@ -228,7 +228,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card1-e0948d85.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card1-7ae0c282.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -1388,38 +1388,6 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📞 打電話",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
-                  "action": {
-                    "type": "uri",
-                    "label": "📞 打電話",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=tel&u=tel%3A%2B886983128566"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
                       "text": "📍 導航到門市",
                       "size": "xxs",
                       "weight": "bold",
@@ -1447,7 +1415,7 @@
                   }
                 }
               ],
-              "spacing": "sm",
+              "spacing": "none",
               "margin": "md"
             }
           ],
