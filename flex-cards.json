@@ -78,13 +78,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -205,13 +205,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -313,13 +313,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -440,13 +440,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -548,13 +548,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -675,13 +675,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -783,13 +783,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -910,13 +910,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -1018,13 +1018,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -1145,13 +1145,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -1208,7 +1208,7 @@
               "text": "買賣、租賃、換屋，都歡迎先聊聊",
               "size": "xs",
               "weight": "bold",
-              "color": "#C8A05A",
+              "color": "#4A5F80",
               "wrap": true,
               "margin": "xs"
             },
@@ -1225,7 +1225,7 @@
                       "text": "📞",
                       "size": "lg",
                       "weight": "regular",
-                      "color": "#C8A05A",
+                      "color": "#C4CDDC",
                       "wrap": false,
                       "flex": 1
                     },
@@ -1257,7 +1257,7 @@
                       "text": "💬",
                       "size": "lg",
                       "weight": "regular",
-                      "color": "#C8A05A",
+                      "color": "#C4CDDC",
                       "wrap": false,
                       "flex": 1
                     },
@@ -1289,7 +1289,7 @@
                       "text": "✉️",
                       "size": "lg",
                       "weight": "regular",
-                      "color": "#C8A05A",
+                      "color": "#C4CDDC",
                       "wrap": false,
                       "flex": 1
                     },
@@ -1321,7 +1321,7 @@
                       "text": "📍",
                       "size": "lg",
                       "weight": "regular",
-                      "color": "#C8A05A",
+                      "color": "#C4CDDC",
                       "wrap": false,
                       "flex": 1
                     },
@@ -1353,7 +1353,7 @@
                       "text": "🕘",
                       "size": "lg",
                       "weight": "regular",
-                      "color": "#C8A05A",
+                      "color": "#C4CDDC",
                       "wrap": false,
                       "flex": 1
                     },
@@ -1401,13 +1401,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "📞 打電話",
@@ -1433,13 +1433,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "📍 導航到門市",
@@ -1500,13 +1500,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -1627,13 +1627,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#D1AF74",
-                    "endColor": "#9C7D46"
+                    "startColor": "#889CB6",
+                    "endColor": "#586B83"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#D6B985",
+                  "borderColor": "#96A8BF",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
