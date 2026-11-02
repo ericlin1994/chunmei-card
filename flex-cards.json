@@ -22,7 +22,7 @@
             {
               "type": "text",
               "text": "永慶房屋 新莊副都心直營店 業務經理｜用心傾聽家的想像，陪你找到生活的模樣。",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#A8B2C0",
               "wrap": true,
@@ -42,7 +42,7 @@
               "text": "1 / 6",
               "size": "xxs",
               "weight": "regular",
-              "color": "#6B7280",
+              "color": "#5F6673",
               "wrap": false,
               "margin": "none",
               "align": "center"
@@ -78,13 +78,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -205,13 +205,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -257,7 +257,7 @@
             {
               "type": "text",
               "text": "首購族・換屋族・置產族・屋主・店面廠辦・長輩同住",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#A8B2C0",
               "wrap": true,
@@ -277,7 +277,7 @@
               "text": "2 / 6",
               "size": "xxs",
               "weight": "regular",
-              "color": "#6B7280",
+              "color": "#5F6673",
               "wrap": false,
               "margin": "none",
               "align": "center"
@@ -313,13 +313,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -440,13 +440,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -492,7 +492,7 @@
             {
               "type": "text",
               "text": "房價行情・買賣租賃・稅務政策・交易安全",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#A8B2C0",
               "wrap": true,
@@ -512,7 +512,7 @@
               "text": "3 / 6",
               "size": "xxs",
               "weight": "regular",
-              "color": "#6B7280",
+              "color": "#5F6673",
               "wrap": false,
               "margin": "none",
               "align": "center"
@@ -548,13 +548,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -675,13 +675,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -727,7 +727,7 @@
             {
               "type": "text",
               "text": "15 年經驗・300+ 位客戶・新莊百萬戰將 14 次",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#A8B2C0",
               "wrap": true,
@@ -747,7 +747,7 @@
               "text": "4 / 6",
               "size": "xxs",
               "weight": "regular",
-              "color": "#6B7280",
+              "color": "#5F6673",
               "wrap": false,
               "margin": "none",
               "align": "center"
@@ -783,13 +783,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -910,13 +910,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -962,7 +962,7 @@
             {
               "type": "text",
               "text": "成交也許只是一個月的業績，房子卻可能承載客戶未來十年、二十年，甚至一輩子的生活。",
-              "size": "xxs",
+              "size": "xs",
               "weight": "regular",
               "color": "#A8B2C0",
               "wrap": true,
@@ -982,7 +982,7 @@
               "text": "5 / 6",
               "size": "xxs",
               "weight": "regular",
-              "color": "#6B7280",
+              "color": "#5F6673",
               "wrap": false,
               "margin": "none",
               "align": "center"
@@ -1018,13 +1018,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -1145,13 +1145,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
@@ -1387,8 +1387,16 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "image",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-map-v2.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
                       "type": "text",
-                      "text": "📍 導航到門市",
+                      "text": "導航到門市",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1396,21 +1404,21 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
-                    "label": "📍 導航到門市",
+                    "label": "導航到門市",
                     "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E6%25B0%25B8%25E6%2585%25B6%25E6%2588%25BF%25E5%25B1%258B%2520%25E6%2596%25B0%25E8%258E%258A%25E5%2589%25AF%25E9%2583%25BD%25E5%25BF%2583%25E7%259B%25B4%25E7%2587%259F%25E5%25BA%2597%2520%25E6%2596%25B0%25E5%258C%2597%25E5%25B8%2582%25E6%2596%25B0%25E8%258E%258A%25E5%258D%2580%25E4%25B8%25AD%25E5%25A4%25AE%25E8%25B7%25AF560%25E8%2599%259F"
                   }
                 }
@@ -1432,7 +1440,7 @@
               "text": "6 / 6",
               "size": "xxs",
               "weight": "regular",
-              "color": "#6B7280",
+              "color": "#5F6673",
               "wrap": false,
               "margin": "none",
               "align": "center"
@@ -1468,13 +1476,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "LINE 諮詢",
@@ -1595,13 +1603,13 @@
                   "background": {
                     "type": "linearGradient",
                     "angle": "90deg",
-                    "startColor": "#889CB6",
-                    "endColor": "#586B83"
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
                   },
                   "cornerRadius": "100px",
                   "flex": 1,
                   "borderWidth": "1px",
-                  "borderColor": "#96A8BF",
+                  "borderColor": "#73849D",
                   "action": {
                     "type": "uri",
                     "label": "分享名片",
