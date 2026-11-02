@@ -1,0 +1,45 @@
+name: market-update
+
+on:
+  schedule:
+    # UTC 03:00 = 台北 11:00；每月 2／12／22 日（內政部於 1／11／21 日更新）
+    - cron: '0 3 2,12,22 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 只用標準庫，沒有第三方套件需要安裝
+      - name: Show Python
+        run: python --version
+
+      - name: Fetch and aggregate
+        run: python tools/market_fetch.py
+
+      - name: Commit and push if changed
+        run: |
+          if [ -z "$(git status --porcelain market.json market_samples.json)" ]; then
+            echo "no changes"
+            exit 0
+          fi
+          PERIOD=$(python -c "import json;print(json.load(open('market.json',encoding='utf-8'))['periods'][-1]['label'])")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add market.json market_samples.json
+          git commit -m "market: update ${PERIOD}"
+          git push

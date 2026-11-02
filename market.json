@@ -1,0 +1,117 @@
+{
+  "source": "內政部不動產交易實價查詢服務網（實價登錄）",
+  "source_url": "https://lvr.land.moi.gov.tw/",
+  "generated_at": "2026-11-02T20:24:22+08:00",
+  "periods": [
+    {
+      "id": "登記日期 115年10月11日至 115年10月20日之買賣案件",
+      "label": "115/10/11–10/20",
+      "added_at": "2026-11-02T20:16:04+08:00"
+    }
+  ],
+  "window_label": "115/10/11–10/20（累積 1 期）",
+  "min_samples": 20,
+  "min_show": 10,
+  "districts": {
+    "新莊區": {
+      "samples": 33,
+      "types": [
+        {
+          "type": "公寓",
+          "n": 14,
+          "median": 41.2,
+          "p25": 35.8,
+          "p75": 48.8,
+          "provisional": true
+        },
+        {
+          "type": "住宅大樓",
+          "n": 14,
+          "median": 50.9,
+          "p25": 44.7,
+          "p75": 65.4,
+          "provisional": true
+        }
+      ]
+    },
+    "板橋區": {
+      "samples": 43,
+      "types": [
+        {
+          "type": "住宅大樓",
+          "n": 21,
+          "median": 72.1,
+          "p25": 58.5,
+          "p75": 76.1,
+          "provisional": false
+        },
+        {
+          "type": "公寓",
+          "n": 15,
+          "median": 42.8,
+          "p25": 38.7,
+          "p75": 47.7,
+          "provisional": true
+        }
+      ]
+    },
+    "三重區": {
+      "samples": 26,
+      "types": [
+        {
+          "type": "公寓",
+          "n": 13,
+          "median": 51.3,
+          "p25": 46.6,
+          "p75": 58.1,
+          "provisional": true
+        },
+        {
+          "type": "住宅大樓",
+          "n": 11,
+          "median": 55.8,
+          "p25": 51.6,
+          "p75": 73.9,
+          "provisional": true
+        }
+      ]
+    },
+    "泰山區": {
+      "samples": 3,
+      "types": []
+    },
+    "中和區": {
+      "samples": 32,
+      "types": [
+        {
+          "type": "住宅大樓",
+          "n": 15,
+          "median": 61.0,
+          "p25": 50.8,
+          "p75": 68.2,
+          "provisional": true
+        },
+        {
+          "type": "公寓",
+          "n": 14,
+          "median": 38.7,
+          "p25": 38.1,
+          "p75": 45.1,
+          "provisional": true
+        }
+      ]
+    },
+    "永和區": {
+      "samples": 12,
+      "types": []
+    }
+  },
+  "dropped": {
+    "車位": 227,
+    "備註關鍵字": 76,
+    "單價無效": 0,
+    "面積過小": 29,
+    "離群": 11
+  },
+  "notes": "已剔除車位、親友/特殊關係交易、預售屋、法拍等；單價為建物單價（萬/坪）"
+}

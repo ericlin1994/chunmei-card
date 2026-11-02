@@ -45,10 +45,10 @@
   /* 主視覺底：真照片（客戶官網實拍，模糊壓暗）＋ 品牌深藍漸層疊在上面，
      漸層的 alpha 是為了讓白字與 logo 讀得出來 —— 換背景圖時這個 alpha 要重新調。 */
   .hero{position:relative;
-        background-image:linear-gradient(160deg,rgba(15,27,51,.74) 0%,rgba(20,31,48,.46) 52%,rgba(20,31,48,.86) 100%),
+        background-image:linear-gradient(160deg,rgba(15,27,51,.70) 0%,rgba(20,31,48,.38) 52%,rgba(20,31,48,.62) 100%),
                          url("hero-bg-v3.jpg");
         background-size:cover,cover;
-        background-position:center top,center 32%;
+        background-position:center top,72% 32%;
         background-repeat:no-repeat,no-repeat;
         background-color:var(--navy-2);
         color:#fff;border-radius:0 0 28px 28px;padding:22px 20px 20px;text-align:center;overflow:hidden}
@@ -65,7 +65,7 @@
   .name span{font-size:19px;font-weight:600;letter-spacing:.06em}
   .role{font-size:13.5px;color:#C9D3E6;margin:0;letter-spacing:.06em}
   .svcline{margin:6px auto 0;max-width:340px;font-size:12px;line-height:1.5;color:var(--gold-2);letter-spacing:.08em;opacity:.9}
-  .btn.primary{background:linear-gradient(180deg,#5F7796,#4A6180);color:#fff;font-weight:800;
+  .btn.primary{background:linear-gradient(180deg,#6C86A6,#536C8E);color:#fff;font-weight:800;
        border-color:rgba(255,255,255,.34);
        box-shadow:0 4px 0 rgba(10,50,92,.65), 0 8px 16px rgba(29,109,182,.32),
                   inset 0 1px 0 rgba(255,255,255,.34)}
@@ -95,8 +95,8 @@
   .actions{display:grid;grid-template-columns:1fr 1fr 1fr;gap:9px;margin-top:20px}
   .btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;
        padding:12px 5px;border-radius:14px;text-decoration:none;font-size:12.5px;font-weight:700;
-       color:#fff;background:linear-gradient(180deg,#5F7796,#4A6180);
-       border:1px solid rgba(255,255,255,.16);letter-spacing:.03em;
+       color:#fff;background:linear-gradient(180deg,#6C86A6,#536C8E);
+       border:1px solid rgba(255,255,255,.52);letter-spacing:.03em;
        /* 立體：硬邊厚度 + 內上緣高光 + 柔散陰影 */
        box-shadow:0 4px 0 rgba(12,20,34,.55), 0 8px 16px rgba(22,35,61,.20),
                   inset 0 1px 0 rgba(255,255,255,.20);
@@ -112,8 +112,8 @@
   .btn .ic svg{width:20px;height:20px;display:block}
   /* Google Maps 是水滴形，視覺重量比方形 logo 輕，單獨放大補償 */
   .btn .ic svg.gm{width:auto;height:22px}
-  .btn.line{background:linear-gradient(180deg,#5F7796,#4A6180);border-color:rgba(255,255,255,.34)}
-  .btn.tel{background:linear-gradient(180deg,#5F7796,#4A6180)}
+  .btn.line{background:linear-gradient(180deg,#6C86A6,#536C8E)}
+  .btn.tel{background:linear-gradient(180deg,#6C86A6,#536C8E)}
 
   /* ── 區塊標題 ── */
   .sec-title{font-size:12px;font-weight:800;color:var(--muted);letter-spacing:.18em;margin:26px 20px 10px}
@@ -555,6 +555,82 @@
   </div>
   <div class="count" id="count"><b>1</b> / 4　左右滑動看更多</div>
 
+  <style>
+  #market .mk-sub{margin:-4px 20px 10px;font-size:13px;line-height:1.7;color:var(--muted)}
+  #market .mk-grid{display:grid;gap:10px;margin:0 16px 10px}
+  #market .mk-card{background:#fff;border:1px solid rgba(22,35,61,.10);border-radius:14px;padding:12px 14px 10px}
+  #market .mk-card h4{margin:0 0 6px;font-size:16px;color:var(--navy);letter-spacing:.04em}
+  #market .mk-row{display:grid;grid-template-columns:1fr auto;gap:2px 10px;align-items:baseline;
+                  padding:7px 0;border-top:1px solid rgba(22,35,61,.08)}
+  #market .mk-type{font-size:13.5px;font-weight:800;color:var(--navy)}
+  #market .mk-ref{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;border:1px solid #B7791F;
+                  background:#FFF4DC;color:#8A5A0B;font-size:11px;font-weight:800;letter-spacing:.04em;vertical-align:1px}
+  #market .mk-n.prov{color:#8A5A0B;font-weight:700}
+  #market .mk-med{font-size:17px;font-weight:900;color:var(--navy);text-align:right}
+  #market .mk-med small{font-size:11px;font-weight:700;color:var(--muted);margin-left:2px}
+  #market .mk-rng{font-size:12px;color:var(--muted)}
+  #market .mk-n{font-size:12px;color:var(--muted);text-align:right}
+  #market .mk-wait{font-size:12.5px;color:var(--muted);padding:7px 0 2px;border-top:1px solid rgba(22,35,61,.08)}
+  #market .mk-meta{margin:0 20px;padding:10px 0 0;font-size:12px;line-height:1.8;color:var(--muted)}
+  #market .mk-meta b{color:var(--navy);font-weight:800}
+  #market .mk-meta a{color:var(--navy);text-decoration:underline;text-underline-offset:3px}
+  #market .mk-foot{margin:6px 20px 18px;font-size:11.5px;line-height:1.7;color:var(--muted)}
+  </style>
+  <section id="market" hidden>
+  <div class="sec-title">MARKET｜<em>近期行情</em></div>
+  <p class="mk-sub">依內政部實價登錄整理的新北市六區成交行情（萬/坪），逐期累積、僅供參考。</p>
+  <div class="mk-grid"></div>
+  <div class="mk-meta"></div>
+  <p class="mk-foot">本行情為歷史實價登錄統計，非即時報價；最新行情請直接詢問。標示「參考值」者樣本數較少，僅供初步參考。</p>
+  </section>
+  <script>
+  (function(){
+    var DIST = ["新莊區", "板橋區", "三重區", "泰山區", "中和區", "永和區"];
+    var box = document.getElementById('market');
+    if(!box || !window.fetch) return;
+    function el(tag, cls, txt){ var e = document.createElement(tag); if(cls) e.className = cls; if(txt != null) e.textContent = txt; return e; }
+    function fmt(t){ return String(t).slice(0, 10) + ' ' + String(t).slice(11, 16); }
+    fetch('market.json?v=' + Date.now(), {cache: 'no-store'}).then(function(r){
+      if(!r.ok) throw new Error('http ' + r.status); return r.json();
+    }).then(function(m){
+      if(!m || !m.districts || !m.periods || !m.periods.length || !m.window_label || !m.generated_at) throw new Error('bad shape');
+      var grid = box.querySelector('.mk-grid'), shown = 0;
+      DIST.forEach(function(name){
+        var d = m.districts[name]; if(!d) return;
+        var card = el('div', 'mk-card'); card.appendChild(el('h4', null, name));
+        var types = d.types || [], got = 0;
+        types.forEach(function(t){
+          if(typeof t.median !== 'number' || typeof t.n !== 'number') return;
+          var row = el('div', 'mk-row');
+          var tp = el('div', 'mk-type', t.type);
+          if(t.provisional === true) tp.appendChild(el('span', 'mk-ref', '參考值'));
+          row.appendChild(tp);
+          var med = el('div', 'mk-med', t.median.toFixed(1)); med.appendChild(el('small', null, '萬/坪'));
+          row.appendChild(med);
+          row.appendChild(el('div', 'mk-rng', '區間 ' + t.p25.toFixed(1) + '～' + t.p75.toFixed(1)));
+          row.appendChild(t.provisional === true ? el('div', 'mk-n prov', '樣本僅 ' + t.n + ' 筆') : el('div', 'mk-n', t.n + ' 筆'));
+          card.appendChild(row); got += t.n;
+        });
+        if(!types.length || (d.samples || 0) > got)
+          card.appendChild(el('div', 'mk-wait', (types.length ? '其他型態' : '各型態') + '：樣本累積中（目前共 ' + (d.samples || 0) + ' 筆）'));
+        grid.appendChild(card); shown++;
+      });
+      if(!shown) throw new Error('no districts');
+      var meta = box.querySelector('.mk-meta');
+      var l1 = el('div'); l1.appendChild(el('b', null, '資料期間：')); l1.appendChild(document.createTextNode(m.window_label));
+      var l2 = el('div'); l2.appendChild(el('b', null, '資料來源：')); l2.appendChild(document.createTextNode('內政部實價登錄'));
+      if(/^https:\/\/lvr\.land\.moi\.gov\.tw\//.test(m.source_url || '')){
+        l2.appendChild(document.createTextNode('（'));
+        var a = el('a', null, '查詢服務網'); a.href = m.source_url; a.target = '_blank'; a.rel = 'noopener'; l2.appendChild(a);
+        l2.appendChild(document.createTextNode('）'));
+      }
+      var l3 = el('div'); l3.appendChild(el('b', null, '更新時間：')); l3.appendChild(document.createTextNode(fmt(m.generated_at)));
+      meta.appendChild(l1); meta.appendChild(l2); meta.appendChild(l3);
+      box.hidden = false;
+    }).catch(function(){ /* 失敗就維持隱藏 */ });
+  })();
+  </script>
+
   <div class="sec-title">MEDIA｜<em>媒體報導</em></div>
   <div class="media"><a class="mcard mimg" href="https://finance.ettoday.net/news/2259821" target="_blank" rel="noopener"><img src="img/media1.jpg" alt="ETtoday報導畫面" loading="lazy" decoding="async"><div class="mb"><span class="mt">ETtoday</span><p>差點被低賣 40%——誠實房價，擋下一場吃虧的交易。</p></div></a><div class="mcard mimg"><img src="img/media2.jpg" alt="中時新聞網報導畫面" loading="lazy" decoding="async"><div class="mb"><span class="mt">中時新聞網</span><p>想買自己的家！劉春美加入永慶房屋 3 年圓夢。</p></div></div><a class="mcard" href="https://www.miss-boss.com/podcast/femaleonairep132-michelle" target="_blank" rel="noopener"><div class="mb"><span class="mt">Podcast</span><p>《芳齡在線》EP132 專訪：房仲女王 Michelle。</p></div></a><a class="mcard" href="https://vickylee168.com/%e5%b7%a5%e4%bd%9c%e7%ad%86%e8%a8%98%e6%9c%ac-2/4116/" target="_blank" rel="noopener"><div class="mb"><span class="mt">人物專訪</span><p>從渴望一個家，到為更多家庭找到安居的可能。</p></div></a></div>
 
@@ -653,7 +729,7 @@ let payloadFailed = false;
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
-const BUILD = 'b171';
+const BUILD = 'b175';
 const PAGE_VER = '2026-11-02-2000'   // 每次改頁面就改這個，用來確認手機拿到的是最新版
 
 /* ═══════ FLEX_PAYLOAD_START（由 build_flex.py 自動寫入，勿手改）═══════ */
