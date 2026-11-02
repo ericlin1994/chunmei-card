@@ -71,7 +71,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card1-v1.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card1-1751d06c.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -144,7 +144,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card2-v1.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card2-b19fe43c.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -217,7 +217,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card3-v1.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card3-626c0706.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -290,7 +290,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card4-v1.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card4-04b561d3.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -363,7 +363,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card5-v1.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card5-b8e84c21.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
