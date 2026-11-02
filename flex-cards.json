@@ -137,7 +137,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://chunmei.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-tel-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -145,7 +145,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "打電話",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -167,8 +167,8 @@
                   "borderColor": "#535C6D",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740&v=2026-11-02-1740#share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740"
+                    "label": "打電話",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=tel&u=tel%3A%2B886983128566"
                   }
                 }
               ],
@@ -372,7 +372,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://chunmei.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-tel-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -380,7 +380,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "打電話",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -402,8 +402,8 @@
                   "borderColor": "#535C6D",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740&v=2026-11-02-1740#share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740"
+                    "label": "打電話",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=tel&u=tel%3A%2B886983128566"
                   }
                 }
               ],
@@ -607,7 +607,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://chunmei.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-tel-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -615,7 +615,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "打電話",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -637,8 +637,8 @@
                   "borderColor": "#535C6D",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740&v=2026-11-02-1740#share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740"
+                    "label": "打電話",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=tel&u=tel%3A%2B886983128566"
                   }
                 }
               ],
@@ -842,7 +842,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://chunmei.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-tel-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -850,7 +850,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "打電話",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -872,8 +872,8 @@
                   "borderColor": "#535C6D",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740&v=2026-11-02-1740#share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740"
+                    "label": "打電話",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=tel&u=tel%3A%2B886983128566"
                   }
                 }
               ],
@@ -1077,7 +1077,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://chunmei.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-tel-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1085,7 +1085,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "打電話",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1107,8 +1107,8 @@
                   "borderColor": "#535C6D",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740&v=2026-11-02-1740#share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740"
+                    "label": "打電話",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=tel&u=tel%3A%2B886983128566"
                   }
                 }
               ],
@@ -1559,7 +1559,7 @@
                   "contents": [
                     {
                       "type": "image",
-                      "url": "https://chunmei.cardtaiwan.com/img/icon-share-v1.png",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-tel-v1.png",
                       "size": "20px",
                       "aspectRatio": "1:1",
                       "aspectMode": "cover",
@@ -1567,7 +1567,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "分享名片",
+                      "text": "打電話",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1589,8 +1589,8 @@
                   "borderColor": "#535C6D",
                   "action": {
                     "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740&v=2026-11-02-1740#share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-1740"
+                    "label": "打電話",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=tel&u=tel%3A%2B886983128566"
                   }
                 }
               ],
