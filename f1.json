@@ -1,0 +1,405 @@
+{
+  "type": "flex",
+  "altText": "F1 無圖版",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#16233A"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "劉春美 MICHELLE",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#FFFFFF",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 劉春美 MICHELLE｜永慶房屋 業務經理\n· 房產交易找小美\n· 房仲女王是春美",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#A8B2C0",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#C8A05A",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://chunmei.cardtaiwan.com/"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#16233A"
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#16233A"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "我們專為誰服務",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#FFFFFF",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 我們專為誰服務\n· 第一次買房，不知道從哪裡開始\n· 想換屋，不確定該先買還是先賣\n· 想為自己置產，怕買貴、怕被騙\n· 想賣屋，卻不知道自己的房子值多少\n· 想找店面、辦公或廠房\n· 家有長輩，需要電梯與無障礙動線",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#A8B2C0",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#C8A05A",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://chunmei.cardtaiwan.com/"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#16233A"
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#16233A"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "我們能為你做什麼",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#FFFFFF",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 我們能為你做什麼\n· 房價行情分析：實價登錄與成交行情。\n· 買賣與租賃：住家 店面 辦公 廠房。\n· 稅務與政策解析：囤房稅 新青安 信用管制。\n· 交易安全把關：價金履約保證。",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#A8B2C0",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#C8A05A",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://chunmei.cardtaiwan.com/"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#16233A"
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#16233A"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "為什麼選擇劉春美？",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#FFFFFF",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 為什麼選擇劉春美？\n· 15 年房產服務經驗\n· 300+ 位客戶完成購售屋\n· 新莊百萬戰將 14 次",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#A8B2C0",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#C8A05A",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://chunmei.cardtaiwan.com/"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#16233A"
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#16233A"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "從認識到交屋，五步說清楚",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#FFFFFF",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 從認識到交屋，五步說清楚\n· 需求聊聊：了解預算、家庭成員與生活動線。\n· 行情分析：提供實價登錄與周邊成交行情。\n· 帶看媒合：依需求篩選，陪你實地看屋。\n· 議價簽約：說明合約、費用與交易安全。\n· 交屋售後：交屋後的疑難，繼續找得到人。",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#A8B2C0",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#C8A05A",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://chunmei.cardtaiwan.com/"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#16233A"
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#16233A"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "讓我們聊聊你的家",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#FFFFFF",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 讓我們聊聊你的家\n· 電話 PHONE_TBD\n· LINE LINE_TBD\n· 新北市新莊區中央路560號（永慶房屋 新莊副都心直營店）\n· 預約制，LINE 隨時找我",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#A8B2C0",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#C8A05A",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://chunmei.cardtaiwan.com/"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#16233A"
+        }
+      }
+    ]
+  }
+}
