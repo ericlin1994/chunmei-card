@@ -1184,6 +1184,280 @@
         "size": "mega",
         "styles": {
           "body": {
+            "backgroundColor": "#16233A"
+          },
+          "footer": {
+            "backgroundColor": "#F6F2E9"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-web-a-v3.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "了解服務內容",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "xs",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#73849D",
+                  "action": {
+                    "type": "uri",
+                    "label": "了解服務內容",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=service&u=https%3A%2F%2Fchunmei.cardtaiwan.com%2F%23service"
+                  }
+                }
+              ],
+              "spacing": "none",
+              "margin": "none"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "14px",
+          "backgroundColor": "#16233A"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "6 / 7",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#5F6673",
+              "wrap": false,
+              "margin": "none",
+              "align": "center"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-line-v2.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "LINE 諮詢",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "xs",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#73849D",
+                  "action": {
+                    "type": "uri",
+                    "label": "LINE 諮詢",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F~michelle5676"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-web-a-v3.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "房價行情",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "xs",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#3B465A",
+                    "endColor": "#111B2D"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#535C6D",
+                  "action": {
+                    "type": "uri",
+                    "label": "房價行情",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=market&u=https%3A%2F%2Fliff.line.me%2F2011946176-ZYhP6avY%3Fgo%3Dmarket%23market"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-tel-v3.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "打電話",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "xs",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#3B465A",
+                    "endColor": "#111B2D"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#535C6D",
+                  "action": {
+                    "type": "uri",
+                    "label": "打電話",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=tel&u=tel%3A%2B886983128566"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "image",
+                      "url": "https://chunmei.cardtaiwan.com/img/icon-share-v1.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "分享名片",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "xs",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#60748F",
+                    "endColor": "#33455F"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#73849D",
+                  "action": {
+                    "type": "uri",
+                    "label": "分享名片",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-2252&v=2026-11-02-2252#share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-2252"
+                  }
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "10px"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://chunmei.cardtaiwan.com/img/card6-5d00ac3e.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-ZYhP6avY"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
             "backgroundColor": "#F6F2E9"
           },
           "footer": {
@@ -1437,268 +1711,6 @@
           "contents": [
             {
               "type": "text",
-              "text": "6 / 7",
-              "size": "xxs",
-              "weight": "regular",
-              "color": "#5F6673",
-              "wrap": false,
-              "margin": "none",
-              "align": "center"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://chunmei.cardtaiwan.com/img/icon-line-v2.png",
-                      "size": "20px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "LINE 諮詢",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#60748F",
-                    "endColor": "#33455F"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#73849D",
-                  "action": {
-                    "type": "uri",
-                    "label": "LINE 諮詢",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F~michelle5676"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://chunmei.cardtaiwan.com/img/icon-web-a-v3.png",
-                      "size": "20px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "房價行情",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3B465A",
-                    "endColor": "#111B2D"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#535C6D",
-                  "action": {
-                    "type": "uri",
-                    "label": "房價行情",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=market&u=https%3A%2F%2Fliff.line.me%2F2011946176-ZYhP6avY%3Fgo%3Dmarket%23market"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://chunmei.cardtaiwan.com/img/icon-tel-v3.png",
-                      "size": "20px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "打電話",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#3B465A",
-                    "endColor": "#111B2D"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#535C6D",
-                  "action": {
-                    "type": "uri",
-                    "label": "打電話",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=tel&u=tel%3A%2B886983128566"
-                  }
-                }
-              ],
-              "spacing": "sm"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://chunmei.cardtaiwan.com/img/icon-share-v1.png",
-                      "size": "20px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "分享名片",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#60748F",
-                    "endColor": "#33455F"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#73849D",
-                  "action": {
-                    "type": "uri",
-                    "label": "分享名片",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-2252&v=2026-11-02-2252#share=1&c=chunmei&src=https%3A%2F%2Fchunmei.cardtaiwan.com%2Fflex-cards.json%3Fv%3D2026-11-02-2252"
-                  }
-                }
-              ],
-              "spacing": "none",
-              "margin": "sm"
-            }
-          ],
-          "spacing": "sm",
-          "paddingAll": "10px"
-        }
-      },
-      {
-        "type": "bubble",
-        "size": "mega",
-        "styles": {
-          "body": {
-            "backgroundColor": "#16233A"
-          },
-          "footer": {
-            "backgroundColor": "#F6F2E9"
-          }
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "image",
-                      "url": "https://chunmei.cardtaiwan.com/img/icon-web-a-v3.png",
-                      "size": "20px",
-                      "aspectRatio": "1:1",
-                      "aspectMode": "cover",
-                      "flex": 0
-                    },
-                    {
-                      "type": "text",
-                      "text": "了解服務內容",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "xs",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#60748F",
-                    "endColor": "#33455F"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#73849D",
-                  "action": {
-                    "type": "uri",
-                    "label": "了解服務內容",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=service&u=https%3A%2F%2Fchunmei.cardtaiwan.com%2F%23service"
-                  }
-                }
-              ],
-              "spacing": "none",
-              "margin": "none"
-            }
-          ],
-          "spacing": "md",
-          "paddingAll": "14px",
-          "backgroundColor": "#16233A"
-        },
-        "footer": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
               "text": "7 / 7",
               "size": "xxs",
               "weight": "regular",
@@ -1885,18 +1897,6 @@
           ],
           "spacing": "sm",
           "paddingAll": "10px"
-        },
-        "hero": {
-          "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card7-5d00ac3e.jpg",
-          "size": "full",
-          "aspectRatio": "3:4",
-          "aspectMode": "cover",
-          "action": {
-            "type": "uri",
-            "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=page&u=https%3A%2F%2Fliff.line.me%2F2011946176-ZYhP6avY"
-          }
         }
       }
     ]
