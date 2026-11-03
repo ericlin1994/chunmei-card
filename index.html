@@ -806,7 +806,7 @@ let payloadFailed = false;
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
-const BUILD = 'b263';
+const BUILD = 'b265';
 const PAGE_VER = '2026-11-03-1700' // 每次改頁面就改這個，用來確認手機拿到的是最新版
 
 /* ═══════ FLEX_PAYLOAD_START（由 build_flex.py 自動寫入，勿手改）═══════ */
@@ -2224,5 +2224,33 @@ bindRail();
   }catch(e){}
 })();
 </script>
+<!--QR_TRACK_BEGIN-->
+<script>
+/* QR 掃描計數（由 rebuild_page.py 產生，勿手改）：有 ?src= 才送；sessionStorage 旗標 qrLogged 防重送 */
+(function(){
+  try{
+    var q = new URLSearchParams(location.search);
+    if(!q.has('src')) return;
+    try{ if(sessionStorage.getItem('qrLogged') === '1') return; }catch(e){}
+    var API = "https://script.google.com/macros/s/AKfycbz6-2txbuJk2l3xJCWM7KoemrFPM-rpZuxvcd2A8Jk126LTu5qhBZgup7dicVsA3649/exec", SLUG = "chunmei";
+    if(!API || !SLUG) return;
+    try{ sessionStorage.setItem('qrLogged', '1'); }catch(e){}
+    var body = JSON.stringify({slug:SLUG, target:'qr_scan', uid:'',
+                               ts:Date.now(), ua:navigator.userAgent,
+                               ref:q.get('ref')||'',
+                               err:'qr_scan',
+                               name:'', pic:''});
+    try{
+      if(navigator.sendBeacon &&
+         navigator.sendBeacon(API, new Blob([body], {type:'text/plain;charset=utf-8'}))) return;
+    }catch(e){}
+    try{
+      fetch(API, {method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
+                  body:body, keepalive:true}).catch(function(){});
+    }catch(e){}
+  }catch(e){}
+})();
+</script>
+<!--QR_TRACK_END-->
 </body>
 </html>
