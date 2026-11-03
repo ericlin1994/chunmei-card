@@ -391,7 +391,7 @@
             },
             {
               "type": "text",
-              "text": "· 服務項目\n· 講座邀約：16 年、15 場實戰分享經驗。\n· 工程資源對接：空間規劃、修繕、水電空調、清潔。\n· 貸款條件評估：從自備款、成數到寬限期，陪你算清楚再進場。",
+              "text": "· 服務項目\n· 講座邀約：15 年、15 場實戰分享經驗。\n· 工程資源對接：空間規劃、修繕、水電空調、清潔。\n· 貸款條件評估：從自備款、成數到寬限期，陪你算清楚再進場。",
               "size": "xs",
               "weight": "regular",
               "color": "#A8B2C0",
@@ -436,7 +436,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card6-b96e9680.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card6-90258623.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
