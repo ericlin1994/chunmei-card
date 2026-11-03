@@ -463,7 +463,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card2-b47bbd75.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card2-a07de36f.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -698,7 +698,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card3-95d2a4a5.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card3-58df6c68.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -726,7 +726,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "15 年經驗・300+ 位客戶・新莊百萬戰將 50 次以上",
+              "text": "16 年經驗・超過 350 位成交客戶\n新莊百萬戰將 50 次以上",
               "size": "xs",
               "weight": "regular",
               "color": "#A8B2C0",
@@ -933,7 +933,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card4-a2b3b3ea.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card4-f265e4c6.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -1168,7 +1168,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card5-34683dab.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card5-cf79d443.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
@@ -1235,7 +1235,7 @@
                   "action": {
                     "type": "uri",
                     "label": "了解服務內容",
-                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=service&u=https%3A%2F%2Fchunmei.cardtaiwan.com%2F%23service"
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=chunmei&to=service&u=https%3A%2F%2Fchunmei.cardtaiwan.com%2F%3Fgo%3Dservice%23service"
                   }
                 }
               ],
@@ -1442,7 +1442,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card6-5d00ac3e.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card6-b96e9680.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",

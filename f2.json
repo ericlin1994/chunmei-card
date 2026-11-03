@@ -144,7 +144,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card2-b47bbd75.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card2-a07de36f.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -217,7 +217,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card3-95d2a4a5.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card3-58df6c68.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -245,7 +245,7 @@
             },
             {
               "type": "text",
-              "text": "· 為什麼選擇劉春美？\n· 15 年房產服務經驗\n· 300+ 位客戶完成購售屋\n· 新莊百萬戰將 50 次以上",
+              "text": "· 為什麼選擇劉春美？\n· 16 年房產服務經驗\n· 超過 350 位成交客戶\n· 新莊百萬戰將 50 次以上",
               "size": "xs",
               "weight": "regular",
               "color": "#A8B2C0",
@@ -290,7 +290,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card4-a2b3b3ea.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card4-f265e4c6.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -363,7 +363,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card5-34683dab.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card5-cf79d443.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
@@ -391,7 +391,7 @@
             },
             {
               "type": "text",
-              "text": "· 服務項目\n· 講座邀約：14 年、11 場實戰分享經驗。\n· 工程資源對接：串接空間規劃、修繕與無障礙設計。\n· 貸款條件評估：從自備款、成數到寬限期，陪你算清楚再進場。",
+              "text": "· 服務項目\n· 講座邀約：16 年、15 場實戰分享經驗。\n· 工程資源對接：空間規劃、修繕、水電空調、清潔。\n· 貸款條件評估：從自備款、成數到寬限期，陪你算清楚再進場。",
               "size": "xs",
               "weight": "regular",
               "color": "#A8B2C0",
@@ -436,7 +436,7 @@
         },
         "hero": {
           "type": "image",
-          "url": "https://chunmei.cardtaiwan.com/img/card6-5d00ac3e.jpg",
+          "url": "https://chunmei.cardtaiwan.com/img/card6-b96e9680.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover"
