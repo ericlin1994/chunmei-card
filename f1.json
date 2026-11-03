@@ -224,7 +224,7 @@
             },
             {
               "type": "text",
-              "text": "· 為什麼選擇劉春美？\n· 15 年房產服務經驗\n· 300+ 位客戶完成購售屋\n· 新莊百萬戰將 14 次",
+              "text": "· 為什麼選擇劉春美？\n· 15 年房產服務經驗\n· 300+ 位客戶完成購售屋\n· 新莊百萬戰將 50 次以上",
               "size": "xs",
               "weight": "regular",
               "color": "#A8B2C0",
@@ -357,6 +357,72 @@
             {
               "type": "text",
               "text": "· 讓我們聊聊你的家\n· 電話 0983-128-566\n· LINE michelle5676\n· 新北市新莊區中央路560號（永慶房屋 新莊副都心直營店）\n· 預約制，LINE 隨時找我",
+              "size": "xs",
+              "weight": "regular",
+              "color": "#A8B2C0",
+              "wrap": true,
+              "margin": "xs"
+            }
+          ],
+          "spacing": "none"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "LINE 諮詢",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": false,
+                  "align": "center"
+                }
+              ],
+              "spacing": "md",
+              "paddingAll": "12px",
+              "backgroundColor": "#C4CDDC",
+              "cornerRadius": "100px",
+              "action": {
+                "type": "uri",
+                "label": "LINE 諮詢",
+                "uri": "https://line.me/ti/p/~michelle5676"
+              }
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "12px",
+          "backgroundColor": "#16233A"
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "body": {
+            "backgroundColor": "#16233A"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "服務項目",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#FFFFFF",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "· 服務項目\n· 講座邀約：14 年、11 場實戰分享經驗。\n· 工程資源對接：串接空間規劃、修繕與無障礙設計。\n· 貸款條件評估：從自備款、成數到寬限期，陪你算清楚再進場。",
               "size": "xs",
               "weight": "regular",
               "color": "#A8B2C0",
