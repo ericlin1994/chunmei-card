@@ -2259,16 +2259,28 @@ bindRail();
 <!--QR_TRACK_END-->
 <!--VIEW_TRACK_BEGIN-->
 <script>
-/* 名片頁瀏覽數（由 rebuild_page.py 產生，勿手改）：匿名累計，不送任何身分資訊 */
+/* 名片頁瀏覽數（由 rebuild_page.py 產生，勿手改）
+   筆數 ＝ view 事件（頁面被開啟一次）
+   人數 ＝ 不重複的來訪者（匿名裝置碼 ＋ LINE 身分，後端雜湊去重）
+   數字來源 ?pub=（後端未更新時退回 ?views=，此時只顯示筆數） */
 (function(){
   try{
     var API = "https://script.google.com/macros/s/AKfycbz6-2txbuJk2l3xJCWM7KoemrFPM-rpZuxvcd2A8Jk126LTu5qhBZgup7dicVsA3649/exec", SLUG = "chunmei";
     if(!API || !SLUG) return;
+    /* 匿名裝置碼：只存在瀏覽器本機（localStorage），用來算「不重複人數」；不含任何個資 */
+    var DID = '';
+    try{
+      DID = localStorage.getItem('cardDid') || '';
+      if(!DID){
+        DID = 'a' + Date.now().toString(36) + Math.random().toString(36).slice(2, 10);
+        localStorage.setItem('cardDid', DID);
+      }
+    }catch(e){ DID = ''; }
     /* 1) 記錄：無條件、立即送出（只靠 sessionStorage 去重），不等任何 GET */
     var first = false;
     try{ if(sessionStorage.getItem('viewLogged') !== '1'){ sessionStorage.setItem('viewLogged','1'); first = true; } }catch(e){ first = true; }
     if(first){
-      var body = JSON.stringify({slug:SLUG, target:'view', uid:'', ts:Date.now(),
+      var body = JSON.stringify({slug:SLUG, target:'view', uid:DID, ts:Date.now(),
                                  ua:'', ref:'', err:'view', name:'', pic:''});
       try{
         if(!(navigator.sendBeacon &&
@@ -2278,14 +2290,24 @@ bindRail();
         }
       }catch(e){}
     }
-    /* 2) 顯示：另外排程，延後 1.2 秒讓上面的記錄先落地；失敗一律靜默，不影響記錄 */
+    /* 2) 顯示：另外排程，延後 1.2 秒讓上面的記錄先落地；失敗一律靜默，不影響記錄。
+          先 ?pub=（筆數＋人數）；失敗／無效 → 退回 ?views=（只有筆數）；都失敗就維持隱藏 */
     setTimeout(function(){
+      var el = document.getElementById('viewCount');
+      if(!el) return;
+      function get(q){ return fetch(API + q + encodeURIComponent(SLUG)).then(function(r){ return r.json(); }); }
+      function show(t){ el.textContent = t; el.style.display = ''; }
       try{
-        fetch(API + '?views=' + encodeURIComponent(SLUG)).then(function(r){ return r.json(); }).then(function(d){
-          var el = document.getElementById('viewCount');
-          if(!el || !d || !d.ok || !d.views) return;
-          el.textContent = '👀 已有 ' + d.views + ' 人看過這張名片';
-          el.style.display = '';
+        get('?pub=').then(function(d){
+          if(d && d.ok && Number(d.views) > 0){
+            show('👀 已有 ' + d.views + ' 筆瀏覽' + (Number(d.visitors) > 0 ? '・' + d.visitors + ' 人看過' : ''));
+            return;
+          }
+          throw 0;
+        }).catch(function(){
+          return get('?views=').then(function(d){
+            if(d && d.ok && Number(d.views) > 0) show('👀 已有 ' + d.views + ' 筆瀏覽');
+          });
         }).catch(function(){});
       }catch(e){}
     }, 1200);
